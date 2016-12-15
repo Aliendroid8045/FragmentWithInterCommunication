@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FragmentCommunicationEx</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="countries">
+        <item>India</item>
+        <item>USA</item>
+        <item>UK</item>
+        <item>Indonesia</item>
+    </string-array>
+
+    <string-array name="countries_capital">
+        <item>Delhi</item>
+        <item>Washington-D.C</item>
+        <item>London</item>
+        <item>Jakarta</item>
+
+    </string-array>
+
+</resources>

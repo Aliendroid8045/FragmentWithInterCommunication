@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:name="com.siva.fragmentcommunicationex.CountryListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="70" />
+
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:name="com.siva.fragmentcommunicationex.Country_DetailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30" />
+
+
+</LinearLayout>

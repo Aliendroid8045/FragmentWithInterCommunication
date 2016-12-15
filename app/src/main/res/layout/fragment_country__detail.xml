@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="150dp"
+    android:background="#AAAAAA"
+    android:orientation="vertical"
+    tools:context="com.siva.fragmentcommunicationex.Country_DetailFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Country :"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/etCountryName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#AAAAAA"
+                android:gravity="center"
+                android:text="Country Name"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Capital :"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/etCapitalName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#AAAAAA"
+                android:gravity="center"
+                android:text="Capital Name"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/ivCountryFlag"
+        android:layout_width="wrap_content"
+        android:layout_height="267dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/india" />
+
+
+</LinearLayout>
